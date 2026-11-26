@@ -1,0 +1,12 @@
+name = "ytdlp-api"
+main = "worker.js"
+compatibility_date = "2026-11-01"
+
+# 任意: 非機密の設定はここに書けます
+# [vars]
+# YTDLP_BACKEND = "https://ytdlp.example.com"
+# CUSTOM_PROVIDER_URL = "https://example.com/extract?id={id}"
+
+# 機密(トークン等)は wrangler secret put で設定してください:
+#   npx wrangler secret put API_KEY
+#   npx wrangler secret put YTDLP_BACKEND_TOKEN
